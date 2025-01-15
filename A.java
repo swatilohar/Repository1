@@ -14,6 +14,7 @@ System.out.println("Main method");
 A a= new A();
 System.out.println(a.x);
 a.m1();
+System.out.print("hi");
 
 
 }
