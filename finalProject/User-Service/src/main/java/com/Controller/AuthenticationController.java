@@ -34,6 +34,7 @@ public class AuthenticationController {
 	public ResponseEntity<?> signUp(@Valid @RequestBody RegisterRequest registerrequest){
 		
 		log.debug("register request : "+registerrequest);
+		log.info("Auth controller");
 		
 		return new ResponseEntity(as.registerUser(registerrequest) ,HttpStatus.OK);
 	}
